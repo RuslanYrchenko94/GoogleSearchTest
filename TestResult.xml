@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="2" result="Failed" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2" engine-version="3.15.2.0" clr-version="4.0.30319.42000" start-time="2022-08-07 11:40:05Z" end-time="2022-08-07 11:40:19Z" duration="14.515271">
+  <command-line><![CDATA[nunit3-console  D:\myDoc\C#\GoogleSearchTest\GoogleSearchTest\bin\Debug\net6.0\GoogleSearchTest.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1004" name="GoogleSearchTest.dll" fullname="D:/myDoc/C#/GoogleSearchTest/GoogleSearchTest/bin/Debug/net6.0/GoogleSearchTest.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2022-08-07T11:40:05.7145292Z" end-time="2022-08-07T11:40:19.5484718Z" duration="13.833889" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+    <environment framework-version="3.13.3.0" clr-version="6.0.7" os-version="Microsoft Windows 10.0.19042" platform="Win32NT" cwd="C:\NUnit.org\nunit-console" machine-name="DESKTOP-M64OQ88" user="yrchenko.r" user-domain="DESKTOP-M64OQ88" culture="ru-UA" uiculture="ru-RU" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\NUnit.org\nunit-console" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETCoreApp,Version=v6.0" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="netcore-6.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="11116" />
+      <property name="_APPDOMAIN" value="nunit-agent" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1-1005" name="GoogleSearchTest" fullname="GoogleSearchTest" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2022-08-07T11:40:05.7198783Z" end-time="2022-08-07T11:40:19.5484381Z" duration="13.828560" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1-1000" name="Tests" fullname="GoogleSearchTest.Tests" classname="GoogleSearchTest.Tests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2022-08-07T11:40:05.7211352Z" end-time="2022-08-07T11:40:19.5483072Z" duration="13.827174" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="1-1003" name="Test1" fullname="GoogleSearchTest.Tests.Test1" classname="GoogleSearchTest.Tests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2022-08-07T11:40:07.3790485Z" end-time="2022-08-07T11:40:15.4073740Z" duration="8.028325" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1-1001" name="Test1(&quot;It Craft&quot;)" fullname="GoogleSearchTest.Tests.Test1(&quot;It Craft&quot;)" methodname="Test1" classname="GoogleSearchTest.Tests" runstate="Runnable" seed="1523531249" result="Failed" start-time="2022-08-07T11:40:07.3792865Z" end-time="2022-08-07T11:40:13.1316506Z" duration="5.752442" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: greater than 2000000000
+  But was:  1350000000.0d
+]]></message>
+              <stack-trace><![CDATA[   at GoogleSearchTest.Tests.Test1(String value) in D:\myDoc\C#\GoogleSearchTest\GoogleSearchTest\UnitTestClass.cs:line 35
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[Test started
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: greater than 2000000000
+  But was:  1350000000.0d
+]]></message>
+                <stack-trace><![CDATA[   at GoogleSearchTest.Tests.Test1(String value) in D:\myDoc\C#\GoogleSearchTest\GoogleSearchTest\UnitTestClass.cs:line 35
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="1-1002" name="Test1(&quot;Microsoft&quot;)" fullname="GoogleSearchTest.Tests.Test1(&quot;Microsoft&quot;)" methodname="Test1" classname="GoogleSearchTest.Tests" runstate="Runnable" seed="1639148586" result="Passed" start-time="2022-08-07T11:40:13.1334675Z" end-time="2022-08-07T11:40:15.4061488Z" duration="2.272682" asserts="1">
+            <output><![CDATA[Test started
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
